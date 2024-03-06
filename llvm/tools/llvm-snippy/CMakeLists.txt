@@ -1,4 +1,7 @@
 set(LLVM_BUILD_SNIPPY FALSE CACHE BOOL "Build llvm-snippy")
+
+message(STATUS "Open source change")
+
 if (NOT LLVM_BUILD_SNIPPY)
   message(STATUS "Disable llvm-snippy")
   return()
