@@ -23,7 +23,7 @@ add_llvm_tool(llvm-snippy
   DEPENDS
   ${LLVMSnippyDeps}
   )
-
+message(STATUS "Open-source change.")
 add_subdirectory(include)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
